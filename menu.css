@@ -1,0 +1,210 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	
+}
+
+body
+{
+	background-image: url(home1.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	
+}
+
+.navigation
+{
+	float:left;
+	margin-top:50px;
+	margin-left:100px;
+	
+	
+}
+
+.navigation ul 
+{
+
+	list-style:none;
+	position:relative;
+}
+
+.navigation ul li
+{
+	
+	background-color: red;
+	width:200px;
+	border:1px solid white;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	float:left;
+	font-size:25px;
+		
+}
+
+.navigation ul li:hover
+{
+	background:green;
+}
+
+
+
+.navigation ul li a
+{
+	display:block;
+	text-decoration: none;
+    color:white;
+	
+}
+
+.navigation ul:after
+{
+	content: ""; clear:both;
+	display:block;
+}
+
+.navigation ul ul
+{
+	display:none;
+}
+
+
+.navigation ul li:hover >ul
+{
+	display:block;
+}
+
+.navigation ul ul
+{
+	background:green;
+	
+	position:absolute; top:100%;
+}
+.navigation ul ul li
+{
+	float:none;
+}
+.navigation ul ul li a
+{
+	
+	width:200px;
+}
+.navigation ul ul li a:hover
+{
+	background:lightblue;
+	transition:0.9s;
+	
+}
+
+.location
+{
+	
+	margin-top:50px;
+	float:right;
+	margin-right:50px;
+}
+
+.location ul 
+{
+	list-style:none;
+	position:relative;
+}
+
+.location ul li
+{
+	
+	background-color: red;
+	width:200px;
+	border:1px solid white;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	float:left;
+	font-size:20px;
+		
+}
+
+
+.location  ul li:hover
+{
+	background:green;
+}
+
+
+.location  ul li a
+{
+	display:block;
+	text-decoration: none;
+    color:white;
+	
+}
+
+.location  ul:after
+{
+	content: ""; clear:both;
+	display:block;
+}
+
+.location  ul ul
+{
+	display:none;
+}
+
+
+.location  ul li:hover >ul
+{
+	display:block;
+}
+
+.location  ul ul
+{
+	background:green;
+	
+	position:absolute; top:100%;
+}
+.location  ul ul li
+{
+	float:none;
+}
+.location  ul ul li a
+{
+	
+	width:200px;
+}
+.location  ul ul li a:hover
+{
+	background:lightblue;
+	transition:0.9s;
+	
+}
+
+
+.search
+{
+	margin-top :-30px;
+	float:right;
+	margin-right:300px;
+	
+}
+
+input[type=text]
+{
+	padding:0px;
+	font-size:20px;
+	font-family: sans-serif;
+}
+
+input[type=submit]
+{
+	float:right;
+	background:green;
+	color:white;
+	cursor:pointer;
+	font-size:15px;
+}
+
+
+
+

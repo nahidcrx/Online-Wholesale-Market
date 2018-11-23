@@ -1,0 +1,451 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	
+}
+
+
+.dbtable{
+	height:200px;
+	width:800px;
+	border:2px solid #306f00;
+	background-color:#9aff1563;
+	z-index:3;
+	margin:10px;
+	margin-left:100px;
+	border-radius:10px;
+	
+}
+.dbtable img{
+	height:144px;
+	width:300px;
+	position:relative;
+	top:-129px;
+	left:20px;
+	border-radius:5px;
+}
+.dbinfo{
+	height:153px;
+	width:290px;
+	position:relative;
+	top:21px;
+	left:400px;
+	font-size: 18px;
+}
+body
+{
+	
+	background-image: url(home1.jpg);
+	height: 1024px;
+	width:1024px;
+	background-size: cover;
+	background-position: center;
+	z-index:-2;
+	
+}
+
+.container{
+	height:100%;
+	width:89%;
+	margin-left:81px;
+	background-color:#80808075;
+	z-index:-1;
+	position:fixed;
+	
+}
+
+.navigation
+{
+	float:left;
+	margin-top:50px;
+	margin-left:100px;
+	color:black;
+	
+}
+.adpost{
+	float: left;
+	margin-top:150px;
+	margin-right:100px;
+	
+}
+
+.navigation ul 
+{
+
+	list-style:none;
+	position:relative;
+}
+.adpost{
+list-style:none;
+	position:relative;
+	
+}
+
+
+.navigation ul li
+{
+	
+	background-color: red;
+	width:200px;
+	border:1px solid white;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	float:left;
+	font-size:25px;
+		background-image: url("images/images/nav.png");
+		
+}
+.adpost{
+background-color: red;
+	width:200px;
+	border:1px solid white;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	float:left;
+	font-size:25px;
+	
+}
+
+
+.navigation ul li:hover
+{
+	background:green;
+}
+
+
+
+.navigation ul li a
+{
+	display:block;
+	text-decoration: none;
+    color:white;
+	
+}
+
+.navigation ul:after
+{
+	content: ""; clear:both;
+	display:block;
+}
+
+.navigation ul ul
+{
+	display:none;
+}
+
+
+.navigation ul li:hover >ul
+{
+	display:block;
+}
+
+.navigation ul ul
+{
+	background:green;
+	
+	position:absolute; top:100%;
+}
+.navigation ul ul li
+{
+	float:none;
+}
+.navigation ul ul li a
+{
+	
+	width:200px;
+}
+.navigation ul ul li a:hover
+{
+	background:lightblue;
+	transition:0.9s;
+	
+}
+
+.location
+{
+	
+	margin-top:50px;
+	float:right;
+	margin-right:50px;
+	position:relative;
+	top:13px;
+	left:217px;
+	z-index:10;
+	color:gray;
+}
+
+.location ul 
+{
+	list-style:none;
+	position:relative;
+	color:gray;
+}
+
+.location ul li
+{
+	
+	background: red;
+	width:200px;
+	border:1px solid white;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	float:left;
+	font-size:20px;
+	background-image: url("images/images/nav.png");
+	color:gray;
+		
+}
+
+
+.location  ul li:hover
+{
+	background:green;
+}
+
+
+.location  ul li a
+{
+	display:block;
+	text-decoration: none;
+    color:white;
+	
+	
+}
+
+.location  ul:after
+{
+	content: ""; clear:both;
+	display:block;
+}
+
+.location  ul ul
+{
+	display:none;
+}
+
+
+.location  ul li:hover >ul
+{
+	display:block;
+}
+
+.location  ul ul
+{
+	background:green;
+	
+	position:absolute; top:100%;
+}
+.location  ul ul li
+{
+	float:none;
+}
+.location  ul ul li a
+{
+	
+	width:200px;
+}
+.location  ul ul li a:hover
+{
+	background:lightblue;
+	transition:0.9s;
+	
+}
+
+
+.search
+{
+	position:relative;
+	top:61px;
+	left:930px;
+	height:5px;
+	width:150px;
+	
+	z-index:1;
+	
+}
+ .search input[type="text"]{
+	 position:relative;
+	top:-185px;
+	left:0px;
+	padding:10px;
+	border:1px solid green;
+	border-radius:9px;
+	font-size:15px;
+	
+ }
+ .search input[type="submit"]{
+	 position:relative;
+	top:-220px;
+	left:217px;
+	padding:5px;
+	border-radius:4px;
+	font-size:15px;
+ }
+.searchR{
+     height:30px;
+	 width:210px;
+	 background-color:white;
+	 z-index:400;
+	 position:relative;
+	 top:-216px;
+	 left:3px;
+	 border:1px solid #a9a7a7;
+      
+ }
+ .searchR a{
+	 text-decoration:none;
+	 position:relative;
+     top:6px;
+     left:20px;	 
+	
+	 color:black;
+	
+ }
+ .mrq
+ {
+	 height: 34px;
+    width: 1200px;
+    margin-left: 82px;
+    background-color: #ffffff00;
+    padding-bottom1: 10px;
+    font-size: 24px;
+    color: #e6f700;
+    top: 40px;
+    border: 1px solid #ebf539;
+ }
+ 
+.addpost
+{
+	display: -webkit-inline-box;
+    width: 116px;
+    height: 10px;
+    position: relative;
+    top: 139px;
+    left: -650px;
+	background-image: url("images/images/nav.png");
+}
+.addpost{
+	    position: relative;
+    top: 100px;
+    background-color: #ccc;
+    left: 215px;
+    font-size: 21px;
+    width: 150px;
+    height: 31px;
+    border-radius: 4px;
+    padding-left: 75px;
+    border: 1px solid black;
+	 }
+
+.editprofile
+{
+	position: relative;
+    top: 68px;
+    left: 451px;
+    background-color: #ccc;
+    width: 150px;
+    font-size: 21px;
+    padding-left: 53px;
+    padding-right: 33px;
+    border: 1px solid black;
+    padding-bottom: 5px;
+    border-radius: 4px;
+	background-image: url("images/images/nav.png");
+	
+}
+.editprofile a,.addpost a{
+    text-decoration:none;
+}
+.all{
+	position:relative;
+	color:gray;
+	
+}
+
+form .adpost
+{
+	  margin-top :500px;
+	float:right;
+	margin-right:500px;
+}
+.profileName{
+	position: relative;
+    top: -176px;
+    left: 226px;
+    background-color: ##5449495c;
+    color: #0a0a0a;
+    width: 300px;
+    height: 35px;
+    padding-left: 93px;
+    padding-top: 5px;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+.add{
+	    position: relative;
+    top: 178px;
+    left: 300px;
+    font-size: 21px;
+    width: 464px;
+}
+.add input[type="text"]{
+	    position: relative;
+    top: -2px;
+    left: 10px;
+    padding: 10px;
+}
+.editform
+{
+	 width: 443px;
+    height: 251px;
+    position: relative;
+    top: -114px;
+    left: 282px;
+	
+}
+.editform input [type="text"]
+{
+	position:relative;
+	top:-2px;
+	left:10px;
+	padding:20px;
+	
+}
+
+.menuCat{
+	height:334px;
+	width:257px;
+	
+	position:relative;
+	top:128px;
+	left:189px;
+	display:inline-block;
+}
+.menuForm img{
+	width:190px;
+	height:140px;
+	border:1px solid black;
+}
+.anchorMenu{
+    text-decoration: none;
+    position: relative;
+    top: 9px;
+    left: 8px;
+    background-color: orange;
+    /* width: 30px; */
+    /* padding: 40px; */
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 13px;
+    padding-bottom: 18px;
+    font-size: 19px;
+    border-radius: 5px;
+    background-image: url(images/images/nav.png);
+    color: black;
+	 
+}	
